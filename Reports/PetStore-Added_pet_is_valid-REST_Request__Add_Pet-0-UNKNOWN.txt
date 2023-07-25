@@ -1,0 +1,48 @@
+Status: UNKNOWN
+Time Taken: 1050
+Size: 88
+Timestamp: Tue Jul 25 15:31:17 PST 2023
+TestStep: REST Request - Add Pet
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://petstore.swagger.io
+Method: POST
+StatusCode: 200
+URL: https://petstore.swagger.io:443/v2/pet
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.5 (Java/16.0.1)]
+Host: [petstore.swagger.io, petstore.swagger.io]
+Accept-Encoding: [gzip,deflate, gzip,deflate]
+Content-Length: [331]
+Content-Type: [application/xml, application/xml]
+
+POST https://petstore.swagger.io:443/v2/pet HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/xml
+Host: petstore.swagger.io
+Accept-Encoding: gzip,deflate
+Content-Type: application/xml
+Content-Length: 331
+Host: petstore.swagger.io
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.5 (Java/16.0.1)
+
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+Server: [Jetty(9.2.9.v20150224)]
+Access-Control-Allow-Origin: [*]
+Access-Control-Allow-Methods: [GET, POST, DELETE, PUT]
+Connection: [keep-alive]
+#status#: [HTTP/1.1 200 OK]
+Date: [Tue, 25 Jul 2023 07:31:19 GMT]
+Access-Control-Allow-Headers: [Content-Type, api_key, Authorization]
+Content-Type: [application/json]
+
+{"id":9223372036854275694,"name":"water1","photoUrls":[],"tags":[],"status":"available"}
